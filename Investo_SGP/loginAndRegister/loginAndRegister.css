@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(./loginAndRegisterAnimation.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.LoginAndRegisterContainer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+/* main login body */
+.LoginBody {
+  width: 900px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+/************************ Left part *********************************/
+.LoginBodyLeft {
+  width: 450px;
+  height: 100%;
+  background: url("./LoginLeftImage.jpg");
+  background-size: 450px 450px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.LoginBodyLeftBottom {
+  width: 315px;
+  height: 100px;
+  /* margin: 0px 0px 40px 50px; */
+  margin-top: -50px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.LoginBodyLeftText {
+  font-size: 28px;
+  text-align: right;
+  color: #212121;
+}
+/**************************Right Part ***********************************/
+.LoginBodyRight {
+  background-color: #fff;
+  width: 450px;
+  height: 100%;
+}
+.TopRightDIV > button {
+  margin: 3px;
+  font-weight: bold;
+  font-size: large;
+  float: right;
+  width: 20px;
+  height: 20px;
+  background: none;
+  color: #212121;
+  cursor: pointer;
+  border: none;
+}
+.LoginBodyRighth1 {
+  margin: 30px 50px 0px 50px;
+  font-size: 35px;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-align: center;
+}
+.LoginBodyRightP {
+  margin: 20px 20px 0px 20px;
+  font-size: 25px;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  text-align: center;
+  line-height: 20px;
+  color: #212121;
+}
+#loginPageInput {
+  text-align: left;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-size: 14px;
+  margin: 50px 50px 0px 50px;
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+#loginPagePassword {
+  text-align: left;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-size: 14px;
+  margin: 10px 50px 0px 50px;
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+/**Submit button*/
+#loginPageSubmit {
+  margin: 40px 50px 0px 50px;
+  width: 350px;
+  height: 40px;
+  background-color: #1c2582;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+p.registerLink {
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Corinthia:wght@700&family=Open+Sans:ital,wght@0,300;1,700&family=Source+Code+Pro:ital,wght@1,506&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Corinthia:wght@700&family=Open+Sans:ital,wght@0,300;1,700&family=Patua+One&family=Source+Code+Pro:ital,wght@1,506&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  scroll-behavior: smooth;
+}
+.FooterSection {
+  background-color: #d3d3d6;
+  height: 100%;
+  color: black;
+  padding-top: 30px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+a[href="#contact"] {
+  display: inline-block;
+  padding: 8px;
+  background-color: rgb(243, 244, 246);
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+a[href="#contact"]:hover {
+  background-color: #ddd;
+  border-radius: 15px;
+}
+.FooterSection_Address1 {
+  margin-top: 25px;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+}
+.FooterSection_Address1,
+.FooterSection_Address2,
+.FooterSection_Address3 {
+  font-size: 16px;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+}
+.FooterSection_ContactSocialMedia > .ContactUs {
+  margin-top: 12px;
+}
+a[href="#contact1"] {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+a[href="#contact1"]:hover {
+  border-radius: 15px;
+}
+.FooterSection_Product h2,
+.FooterSection_Investo h2,
+.FooterSection_QuickLink h2 {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+}
+
+.FooterSection_ProductList,
+.FooterSection_InvestoList,
+.FooterSection_QuickLinkList {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+}
+.FooterSection_ContactSocialMedia .ContactUs {
+  text-decoration: underline;
+  margin-bottom: 10px;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+}
+.SocialMedia_icon {
+  cursor: pointer;
+  margin: 2px;
+}
+
+.horizontalLine {
+  height: 0.3px;
+  /* width: 100%; */
+  background-color: #7c7e8c;
+  margin: 30px 100px;
+}
+.InvestoFooterlast {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px 100px;
+  margin-top: -10px;
+}
+.InvestoFooterlast > .InvestoCopyRight {
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
